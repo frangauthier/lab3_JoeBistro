@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+    background-image: url("../src/assets/cafe.jpg");
+    background-size: cover;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 50s linear;
+    }
+}
+
+.App-full {
+    /* background-color: #856727; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-header {
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-body {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+}
+
+.Nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-left: 2em;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+
+/* Navigation link colors */
+
+a {
+    color: #FFF;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: rgb(169, 247, 208)
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
